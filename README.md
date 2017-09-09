@@ -10,8 +10,8 @@ Su framework is a high performance & asynchronous & concurrent networking framew
     - File
     - UDP
 - Coroutine
-    - Generator
-    - Async/await
+    - Coroutine
+    - Channel
 - Master-worker processes
 - High resolution timer
 
