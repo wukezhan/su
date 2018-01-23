@@ -19,6 +19,7 @@
         - UDP server & UDP client
         - HTTP server & HTTP client
         - WebSocket server
+        - Pipe server & pipe client
     - 文件
 - 进程管理
     - master-worker 进程模式
