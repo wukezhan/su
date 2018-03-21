@@ -34,12 +34,10 @@
 
 如果你对 `Su Framework` 感兴趣，欢迎通过以下的方式进行支持与贡献：
 
-- 通过创建 [Issues](https://github.com/wukezhan/su/issues/new) 提交你宝贵的建议
 - 通过创建 [Issues](https://github.com/wukezhan/su/issues/new) 提交你遇到的问题
 - 通过发起 [Pull Requests](https://github.com/wukezhan/su/pulls) 贡献代码
 - 通过发起 [Pull Requests](https://github.com/wukezhan/su/pulls) 完善和优化文档（中/英文，尤其是英文文档支持）
 - 贡献示例 & 教程
-- 关注 微博（[wukezhan](https://weibo.com/wukezhan) ） 进行交流
 
 ## 3. 示例
 
