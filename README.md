@@ -6,19 +6,18 @@
 
 从底层技术及功能特性上，可以用如下的等式来概括 `Su` 框架：
 
-> Su Framework = PHP（syntax） + Go（goroutine & channel） + Node.js（asynchronous & event-driven）
+> Su Framework = PHP + Go（goroutine & channel） + Node.js（asynchronous & event-driven）
 
 ## 2. 特性
 
 - 协程支持
     - 协程：su\co (su\coroutine)
     - 通道：su\chan (su\channel)
-- 异步非阻塞I/O
+- 异步非阻塞IO
     - 网络
         - TCP server & TCP client
         - UDP server & UDP client
-        - HTTP server & HTTP client
-        - WebSocket server
+    - pipe
     - 文件
 - 进程管理
     - master-worker 进程模式
