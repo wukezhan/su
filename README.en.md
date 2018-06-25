@@ -4,7 +4,7 @@
 
 `Su Framework` is a concurrent & high-performance PHP Framework with full-featured coroutines & asynchronous I/O, delivered as C extension. That we may say:
 
-> Su Framework = PHP（syntax） + Go（goroutine & channel） + Node.js（asynchronous & event-driven）
+> Su Framework = PHP + Go（goroutine & channel） + Node.js（asynchronous & event-driven）
 
 ## 2. Features
 
@@ -16,8 +16,8 @@
         - TCP server & TCP client
         - UDP server & UDP client
         - HTTP server & HTTP client
-        - WebSocket server
     - File
+    - Pipe
 - Process manager
     - Master-worker processes
     - Ipc
