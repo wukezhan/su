@@ -23,7 +23,7 @@
     - IPC
     - Gracefully restart & upgrade
 - High resolution clock
-    - Clock with timeout in milliseconds
+    - Timer with timeout/interval in milliseconds
 - ...
 
 More features coming in the version 1.0.0
