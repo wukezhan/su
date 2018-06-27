@@ -20,10 +20,10 @@
     - Pipe
 - Process manager
     - Master-worker processes
-    - Ipc
+    - IPC
     - Gracefully restart & upgrade
 - High resolution clock
-    - Clock with milliseconds
+    - Clock with timeout in milliseconds
 - ...
 
 More features coming in the version 1.0.0
