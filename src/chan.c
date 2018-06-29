@@ -221,8 +221,6 @@ SU_METHOD(chan, close) {
 }
 
 SU_METHOD(chan, __destruct) {
-    /** SU_SET_SELF;
-    SU_RET_SELF; **/
 }
 
 /* }}} */
