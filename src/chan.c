@@ -217,6 +217,9 @@ SU_METHOD(chan, size) {
     RETURN_LONG(sc->size);
 }
 
+SU_METHOD(chan, select) {
+}
+
 SU_METHOD(chan, close) {
 }
 
@@ -229,7 +232,7 @@ SU_METHOD(chan, __destruct) {
 zend_function_entry su_chan_methods[] = {
     SU_ME(chan, __construct, NULL,    ZEND_ACC_PUBLIC | ZEND_ACC_CTOR)
     SU_ME(chan, __destruct, NULL,    ZEND_ACC_PUBLIC | ZEND_ACC_DTOR)
-    //SU_ME(chan, select, NULL,    ZEND_ACC_PUBLIC)
+    //SU_ME(chan, select, NULL,    ZEND_ACC_PUBLIC | ZEND_ACC_STATIC)
     SU_ME(chan, send, NULL,    ZEND_ACC_PUBLIC)
     SU_ME(chan, recv, NULL,    ZEND_ACC_PUBLIC)
     SU_ME(chan, is_full, NULL,    ZEND_ACC_PUBLIC)
